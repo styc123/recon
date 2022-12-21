@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 #import dash as d
 #import time
-from streamlit_javascript import st_javascript
+#from streamlit_javascript import st_javascript
 from pandas.api.types import (
     is_categorical_dtype,
     is_datetime64_any_dtype,
