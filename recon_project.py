@@ -26,17 +26,17 @@ import streamlit.components.v1 as html
 # %%
 st.set_page_config(page_title = 'Otter Financial Reconciliation - beta', layout = 'wide', page_icon = '🍴')
 #%%
-with st.sidebar:
-    choose = option_menu("Financial Reconciliation", ["Executive Summary", "Trends"],
-                         icons=['body-text', 'bar-chart'],
-                         menu_icon="app", default_index=0, orientation = "vertical",
-                         styles={
-        "container": {"padding": "3!important", "background-color": "##ED816A"},
-        "icon": {"color": "black", "font-size": "20px"}, 
-        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-        "nav-link-selected": {"background-color": "#9B6E48"},
-    }
-    )
+#with st.sidebar:
+#    choose = option_menu("Financial Reconciliation", ["Executive Summary", "Trends"],
+#                         icons=['body-text', 'bar-chart'],
+#                         menu_icon="app", default_index=0, orientation = "vertical",
+#                         styles={
+#        "container": {"padding": "3!important", "background-color": "##ED816A"},
+#        "icon": {"color": "black", "font-size": "20px"}, 
+#        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+#        "nav-link-selected": {"background-color": "#9B6E48"},
+#    }
+#    )
 #%%
 t1 = st.columns(1)
 t1= st.title(" Your Financial Reconciliation")
