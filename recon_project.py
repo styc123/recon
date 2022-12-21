@@ -9,8 +9,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import dash as d
-import time
+#import dash as d
+#import time
 from streamlit_javascript import st_javascript
 from pandas.api.types import (
     is_categorical_dtype,
@@ -20,8 +20,8 @@ from pandas.api.types import (
 )
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as html
-import io 
-from st_aggrid import AgGrid
+#import io 
+#from st_aggrid import AgGrid
 #from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 # %%
 st.set_page_config(page_title = 'Otter Financial Reconciliation - beta', layout = 'wide', page_icon = '🍴')
