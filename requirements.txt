@@ -1,3 +1,7 @@
 streamlit
 pandas
 plotly
+dash
+time
+io
+st_aggrid
